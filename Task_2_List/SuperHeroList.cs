@@ -59,7 +59,6 @@ namespace Task_2_List
         public void Dispose()
         {
             current = null;
-        
         }
 
         public void Add(T item)
@@ -124,7 +123,6 @@ namespace Task_2_List
                     curr = curr.next;
                 }
                 return default(T);
-
             }
         }
 
